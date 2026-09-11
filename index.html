@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Integral de Desarrollo Front-End (Módulos 2 al 8)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout-container">
+        <!-- Menú Lateral y Panel de Control Docente -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <h2>Certificación Front-End</h2>
+                <p>Panel de Evaluación</p>
+            </div>
+
+            <!-- Panel Docente para Activar/Desactivar Módulos -->
+            <div class="docente-panel">
+                <h3>⚙️ Panel Docente</h3>
+                <p class="docente-desc">Selecciona los módulos visibles:</p>
+                <div id="docente-toggles" class="docente-toggles">
+                    <!-- Se generan dinámicamente mediante script.js -->
+                </div>
+            </div>
+
+            <nav class="sidebar-nav" id="sidebar-nav">
+                <a href="#consejos" class="nav-link">💡 Consejos del Examen</a>
+                <!-- Los enlaces de los módulos se generan dinámicamente -->
+            </nav>
+        </aside>
+
+        <!-- Contenido Principal -->
+        <main class="main-content">
+            <header id="consejos" class="card-consejos">
+                <h1>Examen Integral de Desarrollo de Aplicaciones Front-End</h1>
+                <p>Evaluación con preguntas de selección múltiple, verdadero/falso, completación y desarrollo de pequeños códigos.</p>
+                <div class="consejos-box">
+                    <h3>Consejos para realizar la evaluación:</h3>
+                    <ul>
+                        <li>Lee con atención cada enunciado antes de responder. Las preguntas combinan teoría y práctica de código.</li>
+                        <li>En las preguntas de completación y código, asegúrate de escribir la sintaxis de manera limpia y precisa.</li>
+                        <li>Puedes navegar por las distintas secciones utilizando el menú lateral para organizar tu tiempo.</li>
+                        <li>Al finalizar, haz clic en el botón inferior para calificar tus respuestas y revisar las soluciones correctas en caso de error.</li>
+                    </ul>
+                </div>
+            </header>
+
+            <form id="examenForm">
+                <div id="modulos-container">
+                    <!-- Se cargará dinámicamente mediante script.js -->
+                </div>
+                <button type="submit" class="btn-enviar">Enviar y Calificar Examen</button>
+            </form>
+
+            <div id="resultado" class="oculto"></div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
