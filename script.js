@@ -66,7 +66,7 @@ const examData = [
             { id: "m3_25", tipo: "true_false", texto: "Las fuentes externas en CSS se pueden importar y utilizar mediante la regla @import o la etiqueta <link>.", opciones: { V: "Verdadero", F: "Falso" }, correcta: "V" }
         ]
     },
-    /*{
+    {
         idModulo: "modulo-4",
         nombreCorto: "Módulo 4: Programación Avanzada en JavaScript",
         modulo: "Módulo 4: Programación Avanzada en JavaScript",
@@ -98,7 +98,7 @@ const examData = [
             { id: "m4_24", tipo: "multiple", texto: "¿Qué tipo de dato devuelve el operador typeof null en JavaScript por un error histórico?", opciones: { A: "null", B: "object", C: "undefined" }, correcta: "B" },
             { id: "m4_25", tipo: "true_false", texto: "Las funciones callback son funciones que se pasan como argumentos a otras funciones para ser ejecutadas posteriormente.", opciones: { V: "Verdadero", F: "Falso" }, correcta: "V" }
         ]
-    },
+    },/*
     {
         idModulo: "modulo-5",
         nombreCorto: "Módulo 5: Fundamentos de Bases de Datos Relacionales",
